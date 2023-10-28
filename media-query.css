@@ -1,0 +1,128 @@
+@media screen and (max-width: 838px) {
+  .header__logo-menu li {
+    margin-right: 28px;
+  }
+
+  .header__reg {
+    margin-left: 15px;
+  }
+
+  .page {
+    margin: 31px auto;
+    padding: 0 15px;
+    position: relative;
+  }
+
+  .main__content {
+    margin-top: 80px;
+  }
+
+  .main__title {
+    font-size: 60px;
+    line-height: 60px;
+    max-width: 440px;
+  }
+
+  .main__p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 345px;
+    margin-bottom: 51px;
+  }
+}
+
+@media screen and (max-width: 718px) {
+  .page {
+    margin: 31px auto;
+    padding: 0 0px;
+  }
+
+  .page__half-screen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 55%;
+    height: 100vh;
+    display: block;
+    z-index: 3;
+  }
+  
+  .half__close-button {
+    float: right;
+    padding-top: 25px;
+    padding-right: 25px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  .header__menu, .header__reg {
+    display: none;
+  }
+
+  .header__logo-menu {
+    margin-left: 20px;
+  }
+
+  .header__burguer {
+    width: 32px;
+    height: 18px;
+    display: block;
+    margin-right: 20px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  
+  .main__content {
+    margin-top: 20px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main__title {
+    font-size: 36px;
+    line-height: 60px;
+  }
+
+  .main__break-word {
+    display: inline-block;
+  }
+
+  .main__propaganda img {
+    width: 81px;
+    margin-right: 15px;
+  }
+
+  .main__img {
+    background-image: url(./images/image-hero-mobile.png);
+    width: 100%;
+    height: 440px;
+    background-position: center;
+    background-size:cover; 
+    background-repeat: no-repeat;
+    margin:auto;
+  }
+
+
+}
+
+@media screen and (max-width: 550px) {
+  .main__img {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main__img {
+    height: 250px;
+  }
+}

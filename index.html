@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-query.css">
+  <link rel="stylesheet" href="pop-ups.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+
+  <div class="page">
+    <div class="page__overlay"></div>
+    <header class="header">
+      <ul class="header__logo-menu">
+        <li class="header__logo"><img class="header__img" src="./images/logo.svg" alt=""></li>
+        <div class="header__arrow header__select-features">
+          <li class="header__menu">Features</li>
+        </div>
+        <div class="header__arrow header__select-company">
+          <li class="header__menu">Company</li>
+        </div>
+        <li class="header__menu">Careers</li>
+        <li class="header__menu">About</li>
+      </ul>
+      <ul class="header__registration">
+        <li class="header__reg">Login</li>
+        <li class="header__reg">Register</li>
+      </ul>
+      <img class="header__burguer" src="./images/icon-menu.svg" alt="">
+
+    </header>
+
+    <ul class="header__features">
+      <li class="features__menu"><img src="./images/icon-todo.svg" alt="">Todo List</li>
+      <li class="features__menu"><img src="./images/icon-calendar.svg" alt="">Calendar</li>
+      <li class="features__menu"><img src="./images/icon-reminders.svg" alt="">Reminders</li>
+      <li class="features__menu"><img src="./images/icon-planning.svg" alt="">Planning</li>
+    </ul>
+
+    <ul class="header__company">
+      <li class="company__menu">History</li>
+      <li class="company__menu">Our team</li>
+      <li class="company__menu">Blog</li>
+    </ul>
+
+    <main class="main">
+      <div class="main__content">
+        <h1 class="main__title"><span class="main__break-word">Make</span> remote work</h1>
+        <p class="main__p">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button class="main__button">Learn more</button>
+        <div class="main__propaganda">
+          <img src="./images/client-databiz.svg" alt="">
+          <img src="./images/client-audiophile.svg" alt="">
+          <img src="./images/client-meet.svg" alt="">
+          <img src="./images/client-maker.svg" alt="">
+        </div>
+      </div>
+      
+      <div class="main__img"></div>
+
+
+      <div class="page__half-screen">
+        <img class="half__close-button" src="./images/close-button.svg" alt="">
+        <ul class="half__header-menu">
+          <li class="half__menu">Features</li>
+          <li class="half__menu">Company</li>
+          <li class="half__menu">Careers</li>
+          <li class="half__menu">About</li>
+        </ul>
+        <ul class="half__header-reg">
+          <li class="half__reg">Login</li>
+          <li class="half__reg">Register</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
