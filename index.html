@@ -20,10 +20,10 @@
     <header class="header">
       <ul class="header__logo-menu">
         <li class="header__logo"><img class="header__img" src="./images/logo.svg" alt=""></li>
-        <div class="header__arrow header__select-features">
+        <div class="header__arrow_features header__select-features">
           <li class="header__menu">Features</li>
         </div>
-        <div class="header__arrow header__select-company">
+        <div class="header__arrow_company header__select-company">
           <li class="header__menu">Company</li>
         </div>
         <li class="header__menu">Careers</li>
@@ -69,14 +69,33 @@
       <div class="page__half-screen">
         <img class="half__close-button" src="./images/close-button.svg" alt="">
         <ul class="half__header-menu">
-          <li class="half__menu">Features</li>
-          <li class="half__menu">Company</li>
-          <li class="half__menu">Careers</li>
-          <li class="half__menu">About</li>
+          <li class="half__menu half__menu_feature">
+            <p class="half__item half__select-feature">Features</p>
+              <ul class="half__hidden-features">
+                <li class="half__hidden-item"><img src="./images/icon-todo.svg" alt="">Todo List</li>
+                <li class="half__hidden-item"><img src="./images/icon-calendar.svg" alt="">Calendar</li>
+                <li class="half__hidden-item"><img src="./images/icon-reminders.svg" alt="">Reminders</li>
+                <li class="half__hidden-item"><img src="./images/icon-planning.svg" alt="">Planning</li>
+              </ul>
+          </li>
+          <li class="half__menu half__menu_company">
+            <p class="half__item half__select-company">Company</p>
+            <ul class="half__hidden-company">
+              <li class="half__hidden-item">History</li>
+              <li class="half__hidden-item">Our team</li>
+              <li class="half__hidden-item">Blog</li>
+            </ul>
+          </li>
+          <li class="half__menu">
+            <p class="half__item">Carrers</p>
+          </li>
+          <li class="half__menu">
+            <p class="half__item">About</p>
+          </li>
         </ul>
         <ul class="half__header-reg">
           <li class="half__reg">Login</li>
-          <li class="half__reg">Register</li>
+          <li class="half__register">Register</li>
         </ul>
       </div>
     </main>

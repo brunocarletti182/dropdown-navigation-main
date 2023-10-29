@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 718px) {
+@media screen and (max-width: 738px) {
   .page {
     margin: 31px auto;
     padding: 0 0px;
@@ -43,7 +43,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 55%;
+    width: 60%;
     height: 100vh;
     display: block;
     z-index: 3;
@@ -126,3 +126,4 @@
     height: 250px;
   }
 }
+

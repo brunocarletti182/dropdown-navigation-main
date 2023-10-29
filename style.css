@@ -14,7 +14,6 @@
   position: relative;
 }
 
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -58,8 +57,16 @@
   padding: 10px 15px;
 }
 
-.header__arrow {
+.header__arrow_features, .header__arrow_company {
   background-image: url(./images/icon-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: top 4px right 20px;
+  background-size: 12px;
+  cursor: pointer;
+}
+
+.header__arrow_up {
+  background-image: url(./images/icon-arrow-up.svg);
   background-repeat: no-repeat;
   background-position: top 4px right 20px;
   background-size: 12px;

@@ -28,15 +28,49 @@
 
 
 .half__header-menu {
-  margin-top: 78px;
-  margin-left: 24px;
+  margin: 78px 0 32px 24px;
 }
 
 .half__header-reg {
-  margin-left: 24px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.half__register {
+  padding: 10px 50px;
+  border: 1px solid #000000;
+  border-radius: 10px;
 }
 
 .half__header-menu li, .half__header-reg li {
   list-style: none;
-  margin-top: 14px;
+  margin-top: 20px;
+}
+
+.half__hidden-features, .half__hidden-company {
+  display: none;
+  padding-left: 25px;
+}
+
+
+.half__hidden_show {
+  display: block;
+}
+
+
+.half__hidden-item img {
+  padding-right: 10px;
+}
+
+.half__menu {
+  cursor: pointer;
+
+}
+
+.half__select-feature, .half__select-company {
+  background-image: url(../images/icon-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: left 80px top 4px;
 }
